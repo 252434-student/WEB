@@ -1,0 +1,19 @@
+Tags used in the process of writing this assignment, in no particular order:
+<!doctype>
+<html>
+<head>
+<meta>
+<title>
+<body>
+<h1, 2, 3>
+<p>
+<a>
+<hr>
+<br>
+<ul>
+<ol>
+<li>
+<forum>
+<label>
+<input>
+<img>
