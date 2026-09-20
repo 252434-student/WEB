@@ -1,0 +1,67 @@
+#menu{
+    position: absolute;
+    background-color: darkgray;
+}
+#aboutus{
+    background-color: lightgray;
+    font-family: monospace;
+    opacity: 70%;
+}
+.navbar{
+    background-color: #555555;
+    overflow: hidden;
+}
+.menu-navbar{
+    background-color: #555555;
+    overflow: hidden;
+}
+.welcome{
+    text-align: center;
+    background-color: orange;
+    color: black;
+    font-size: 50px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    opacity: 80%;
+}
+input[type=text], [type=datetime-local], [type=number] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: gold;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: orange;
+}
+input[type=reset] {
+    background-color: gold;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset]:hover {
+    background-color: orange;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.slideshow-item img{
+    width: 100%;
+}

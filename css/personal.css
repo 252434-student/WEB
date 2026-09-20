@@ -1,0 +1,43 @@
+#menu li{
+    color: black;
+    text-align: left;
+    padding: 5px;
+}
+#aboutus h1{
+    text-align: center;
+    padding: 10px;
+}
+#aboutus p{
+    padding: 15px;
+}
+.navbar a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: black;
+    background-color: lightgoldenrodyellow;
+}
+.navbar a:active{
+    color: white;
+    background-color: darkorange;
+}
+.menu-navbar a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+}
+.menu-navbar a:hover{
+    color: black;
+    background-color: lightgoldenrodyellow;}
+.menu-navbar a:active{
+    color: white;
+    background-color: darkorange;
+}
