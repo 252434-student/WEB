@@ -20,7 +20,7 @@
 }
 .navbar a:hover{
     color: black;
-    background-color: lightgoldenrodyellow;
+    background-color: darkorange;
 }
 .navbar a:active{
     color: white;
@@ -35,8 +35,8 @@
     font-size: 18px;
 }
 .menu-navbar a:hover{
-    color: black;
-    background-color: lightgoldenrodyellow;}
+    color: navajowhite;
+    background-color: darkred;}
 .menu-navbar a:active{
     color: white;
     background-color: darkorange;
