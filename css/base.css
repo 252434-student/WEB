@@ -3,19 +3,19 @@
 }
 #menu{
     position: absolute;
-    background-color: darkgray;
+    background-color: lightgoldenrodyellow;
 }
 #aboutus{
-    background-color: lightgray;
+    background-color: lightgoldenrodyellow;
     font-family: monospace;
     opacity: 70%;
 }
 .navbar{
-    background-color: #555555;
+    background-color: goldenrod;
     overflow: hidden;
 }
 .menu-navbar{
-    background-color: #555555;
+    background-color: goldenrod;
     overflow: hidden;
 }
 .welcome{
