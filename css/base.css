@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 #menu{
-    position: absolute;
     background-color: lightgoldenrodyellow;
 }
 #aboutus{
@@ -10,23 +9,15 @@
     font-family: monospace;
     opacity: 70%;
 }
-.navbar{
+#navbar{
+    position: sticky;
+    top: 0;
     background-color: goldenrod;
     overflow: hidden;
 }
 .menu-navbar{
     background-color: goldenrod;
     overflow: hidden;
-}
-.welcome{
-    text-align: center;
-    background-color: orange;
-    color: black;
-    font-size: 50px;
-    width: auto;
-    height: auto;
-    padding: 5px;
-    opacity: 80%;
 }
 input[type=text], [type=datetime-local], [type=number] {
     width: 100%;
@@ -59,12 +50,4 @@ input[type=reset] {
 }
 input[type=reset]:hover {
     background-color: orange;
-}
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
-.slideshow-item img{
-    width: 100%;
 }
