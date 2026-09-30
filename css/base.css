@@ -9,16 +9,7 @@
     font-family: monospace;
     opacity: 70%;
 }
-#navbar{
-    position: sticky;
-    top: 0;
-    background-color: goldenrod;
-    overflow: hidden;
-}
-.menu-navbar{
-    background-color: goldenrod;
-    overflow: hidden;
-}
+
 input[type=text], [type=datetime-local], [type=number] {
     width: 100%;
     padding: 12px;
