@@ -14,8 +14,13 @@
     color: white !important;
 }
 .nav .nav-link:hover{
+    color: black !important;
+    border-radius: 0;
+    border-color: crimson !important;
     background-color: gold !important;
 }
 .nav .active{
+    border-radius: 0;
+    border-color: darkred !important;
     background-color: red !important;
 }

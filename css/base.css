@@ -9,7 +9,10 @@
     font-family: monospace;
     opacity: 70%;
 }
-
+.nav {
+    border : 1px solid darkred; !important;
+    background-color: goldenrod; !important;
+}
 input[type=text], [type=datetime-local], [type=number] {
     width: 100%;
     padding: 12px;
