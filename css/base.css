@@ -6,7 +6,31 @@
 }
 .nav {
     border : 1px solid darkred; !important;
-    background-color: goldenrod; !important;
+    background-color: darkgoldenrod; !important;
+}
+.nav .nav-link{
+    color: white !important;
+}
+.nav .nav-link:hover{
+    color: black !important;
+    border-radius: 0;
+    border-color: darkred !important;
+    background-color: goldenrod !important;
+}
+.nav .active{
+    border-radius: 0;
+    border-color: darkred !important;
+    background-color: darkred !important;
+}
+.card{
+    border-radius: 0 !important;
+    border-color: firebrick !important;
+}
+.card .card-body{
+    background-color: goldenrod !important;
+}
+.card .card-body .card-text a{
+    text-decoration: none !important;
 }
 input[type=text], [type=datetime-local], [type=number] {
     width: 100%;

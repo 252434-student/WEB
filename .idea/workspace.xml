@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2986c1d8-c18d-4ca4-81f8-0c9dcbced7f6" name="Changes" comment="commiting navbar changes">
+    <list default="true" id="2986c1d8-c18d-4ca4-81f8-0c9dcbced7f6" name="Changes" comment="commiting new changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Meat-Point-aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat-Point-aboutus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Meat-Point-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat-Point-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Meat-Point-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat-Point-home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/personal.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/personal.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,9 +113,10 @@
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;2&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;3&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sabyrzhanibraev/WebstormProjects/WEBcourse&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
@@ -170,7 +172,8 @@
       <workItem from="1790674492105" duration="53000" />
       <workItem from="1790686422056" duration="3319000" />
       <workItem from="1790769184275" duration="6925000" />
-      <workItem from="1791200602432" duration="1755000" />
+      <workItem from="1791200602432" duration="2565000" />
+      <workItem from="1791203293333" duration="3494000" />
     </task>
     <task id="LOCAL-00001" summary="commit try">
       <option name="closed" value="true" />
@@ -188,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790774765850</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commiting new changes">
+      <option name="closed" value="true" />
+      <created>1791202665319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1791202665319</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +231,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit try" />
     <MESSAGE value="commiting navbar changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="commiting navbar changes" />
+    <MESSAGE value="commiting new changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="commiting new changes" />
   </component>
 </project>
