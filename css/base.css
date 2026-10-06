@@ -1,9 +1,6 @@
 * {
     box-sizing: border-box;
 }
-#menu{
-    background-color: lightgoldenrodyellow;
-}
 .nav {
     border : 1px solid darkred; !important;
     background-color: darkgoldenrod; !important;
@@ -22,6 +19,7 @@
     border-color: darkred !important;
     background-color: darkred !important;
 }
+
 .card{
     border-radius: 0 !important;
     border-color: firebrick !important;
@@ -32,6 +30,19 @@
 .card .card-body .card-text a{
     text-decoration: none !important;
 }
+
+.accordion-item{
+    border-color: darkred !important;
+}
+.accordion-button{
+    background-color: goldenrod !important;
+}
+.accordion-button:active{
+    border-color: darkred !important;
+    background-color: darkred !important;
+    color: white !important;
+}
+
 input[type=text], [type=datetime-local], [type=number] {
     width: 100%;
     padding: 12px;
