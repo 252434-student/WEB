@@ -42,6 +42,9 @@
     background-color: darkred !important;
     color: white !important;
 }
+.list-group .list-group-flush{
+    background-color: lightyellow;
+}
 
 input[type=text], [type=datetime-local], [type=number] {
     width: 100%;
