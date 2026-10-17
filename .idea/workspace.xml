@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2986c1d8-c18d-4ca4-81f8-0c9dcbced7f6" name="Changes" comment="commiting menu page">
+    <list default="true" id="2986c1d8-c18d-4ca4-81f8-0c9dcbced7f6" name="Changes" comment="commiting readme">
+      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Meat-Point-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat-Point-menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,7 @@
         <option value="HTML File" />
         <option value="HTTP Public Environment File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -172,6 +176,11 @@
       <workItem from="1790769184275" duration="6925000" />
       <workItem from="1791200602432" duration="2565000" />
       <workItem from="1791203293333" duration="3494000" />
+      <workItem from="1791346450626" duration="4000" />
+      <workItem from="1791979518739" duration="191000" />
+      <workItem from="1791979729027" duration="3436000" />
+      <workItem from="1792231450465" duration="10000" />
+      <workItem from="1792231464457" duration="24253000" />
     </task>
     <task id="LOCAL-00001" summary="commit try">
       <option name="closed" value="true" />
@@ -213,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791290565838</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commiting readme">
+      <option name="closed" value="true" />
+      <created>1791292382509</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1791292382509</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +264,7 @@
     <MESSAGE value="commiting navbar changes" />
     <MESSAGE value="commiting new changes" />
     <MESSAGE value="commiting menu page" />
-    <option name="LAST_COMMIT_MESSAGE" value="commiting menu page" />
+    <MESSAGE value="commiting readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="commiting readme" />
   </component>
 </project>

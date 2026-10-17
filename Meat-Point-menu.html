@@ -6,9 +6,9 @@
   <meta name="description" content="Page for food menu">
   <title>Food menu items</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/personal.css">
-  <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
 <nav class="nav nav-tabs sticky-top">
@@ -23,89 +23,585 @@
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            Breakfast
+            Завтраки
           </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionDishes">
           <div class="accordion-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Кавурма - 4990₸</li>
-              <li class="list-group-item">Омлет - 2890₸</li>
-              <li class="list-group-item">Чакалы Менемен - 4290₸</li>
-              <li class="list-group-item">VIP Завтрак - 10990₸</li>
-              <li class="list-group-item">Суджук С Яйцом - 3590₸</li>
-              <li class="list-group-item">Менемен - 3890₸</li>
-              <li class="list-group-item">Кавурма С Яйцом - 5090₸</li>
-            </ul>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="images/Кавурма.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Кавурма</h5>
+                    <p class="card-text food-description">Нежное, сочное мясо говядины обжаренное в собственном соку со специями до румяной корочки.</p>
+                    <div class="price-cart">
+                      <span class="price">4990₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Омлет.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Омлет</h5>
+                    <p class="card-text food-description">Нежный яичный блин с сыром</p>
+                    <div class="price-cart">
+                      <span class="price">2890₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Чакалы%20менемен.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Чакалы Менемен</h5>
+                    <p class="card-text food-description">Традиционный турецкий завтрак менемен с добавлением сыра гауда и моцарелла</p>
+                    <div class="price-cart">
+                      <span class="price">4290₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/VIP%20завтрак.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">VIP Завтрак</h5>
+                    <p class="card-text food-description">Включает в себя: яйцо с суджуком, турецкий борек, омлет с сыром, картофель фри, жареная колбаса, сырная тарелка, домашнее варенье, сметана, домашнее сливочное масло, шоколадная паста, тахин пекмез, маслины и оливки, домашний мёд, огурцы и помидоры, 2 лепешки, а так же турецкого чайник чая</p>
+                    <div class="price-cart">
+                      <span class="price">10990₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Суджук%20с%20яйцом.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Суджук С Яйцом</h5>
+                    <p class="card-text food-description">Натуральная, домашняя колбаса с яйцом</p>
+                    <div class="price-cart">
+                      <span class="price">3590₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Кавурма%20с%20яйцом.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Кавурма С Яйцом</h5>
+                    <p class="card-text food-description">Это сочные кусочки мяса, обжаренные со специями до румяной корочки, с нежными, слегка запеченными яйцами.</p>
+                    <div class="price-cart">
+                      <span class="price">5090₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Менемен.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Менемен</h5>
+                    <p class="card-text food-description">Король завтраков! Национальный турецкий завтрак из лука, перца, помидоров и яиц</p>
+                    <div class="price-cart">
+                      <span class="price">3890₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Тосты.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Тост с колбасой</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">3590₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Тосты.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Тост с сыром</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">3290₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Завтрак%20на%20одного.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Завтрак на одного</h5>
+                    <p class="card-text food-description">Включает в себя: омлет с сыром, брынза, сыр, тахин пекмез, шоколадная паста, домашнее сливочное масло, смета и варенье, оливки и маслины, одна лепешка, а так же бардак турецкого чая.</p>
+                    <div class="price-cart">
+                      <span class="price">6590₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Sigara%20borek%204шт.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Sigara borek 4шт</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">1990₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Salads
+            Салаты
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionDishes">
           <div class="accordion-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Езме - 3690₸</li>
-              <li class="list-group-item">Кезде Из Баклажанов В Йогурте - 3790₸</li>
-              <li class="list-group-item">Салат С Курицей - 3890₸</li>
-              <li class="list-group-item">Хумус - 4090₸</li>
-              <li class="list-group-item">Салат Сарма - 3990₸</li>
-              <li class="list-group-item">Салат Из Баклажанов - 3790₸</li>
-              <li class="list-group-item">Gavurdag - 3690₸</li>
-              <li class="list-group-item">Атеш - 4290₸</li>
-              <li class="list-group-item">Чи Кофте - 3890₸</li>
-              <li class="list-group-item">Ассорти Мезе - 6390₸</li>
-              <li class="list-group-item">Кёзде Из Баклажанов Острый - 3890₸</li>
-              <li class="list-group-item">Тулум Салат - 4390₸</li>
-              <li class="list-group-item">Салат От Шефа - 3890₸</li>
-              <li class="list-group-item">Салат Чобан - 3490₸</li>
-              <li class="list-group-item">Салат С Тунцом - 4090₸</li>
-              <li class="list-group-item">Хайдари - 3490₸</li>
-              <li class="list-group-item">Морковный Таратор - 3590₸</li>
-              <li class="list-group-item">Оливье - 3390₸</li>
-              <li class="list-group-item">Греческий - 3590₸</li>
-              <li class="list-group-item">Цезарь С Курицей - 4090₸</li>
-            </ul>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="images/Езме.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Езме</h5>
+                    <p class="card-text food-description">Мелко измельченные помидоры, огурцы, болгарский перец, зелень</p>
+                    <div class="price-cart">
+                      <span class="price">3690₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Кедзе%20из%20баклажанов%20в%20йогурте.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Кедзе Из Баклажанов В Йогурте</h5>
+                    <p class="card-text food-description">Нежные жареные баклажаны в йогурте</p>
+                    <div class="price-cart">
+                      <span class="price">3790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Кёдзе%20из%20баклажанов%20острый.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Кедзе Из Баклажанов Острый</h5>
+                    <p class="card-text food-description">Жареные баклажаны на углях, болгарский перец, чеснок</p>
+                    <div class="price-cart">
+                      <span class="price">3890₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Салат%20с%20тунцом.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Салат С Тунцом</h5>
+                    <p class="card-text food-description">Консервированный тунец, салат айсберг, руккола, кукуруза, красный лук, оливковое масло и соевый соус</p>
+                    <div class="price-cart">
+                      <span class="price">4590₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Хумус.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Хумус</h5>
+                    <p class="card-text food-description">Салат который отлично подойдёт любому мясному блюду. В его основные ингредиенты входит турецкий нут и кунжутное масло (тахини)</p>
+                    <div class="price-cart">
+                      <span class="price">4390₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Салат%20из%20баклажанов.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Салат Из Баклажанов</h5>
+                    <p class="card-text food-description">Жареные баклажаны, помидоры, болгарский перец, чеснок, томатный соус</p>
+                    <div class="price-cart">
+                      <span class="price">4090₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Хайдари.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Хайдари</h5>
+                    <p class="card-text food-description">Йогурт сузме, перечная мята, оливковое масло</p>
+                    <div class="price-cart">
+                      <span class="price">3790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Чи%20кофте.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Чи кофте</h5>
+                    <p class="card-text food-description">Булгур, помидоры, репчатый лук, зеленый лук, паста из болгарского перца, томатная паста, петрушка, специи, оливковое масло, гранатовый соус</p>
+                    <div class="price-cart">
+                      <span class="price">4090₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Сарма.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Сарма</h5>
+                    <p class="card-text food-description">Виноградный листья, рис, репчатый лук, пряности</p>
+                    <div class="price-cart">
+                      <span class="price">4290₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Оливье.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Оливье</h5>
+                    <p class="card-text food-description">Картофель, морковь, яйца, маринованные огурцы, горошек зеленый, майонез</p>
+                    <div class="price-cart">
+                      <span class="price">3590₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Греческий.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Греческий</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">3790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Салат%20от%20шефа.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Салат от Шефа</h5>
+                    <p class="card-text food-description">Руккола, помидоры, болгарский перец, коралловый салат, брынза, гранат, оливковое масло, гранатовый соус</p>
+                    <div class="price-cart">
+                      <span class="price">4190₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Салат%20чобан.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Салат Чобан</h5>
+                    <p class="card-text food-description">Мелко нарезанные помидоры, огурцы, болгарский перец, петрушка, красный лук, маслины, оливковое масло, гранатовый соус</p>
+                    <div class="price-cart">
+                      <span class="price">3690₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Цезарь.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Цезарь</h5>
+                    <p class="card-text food-description">Салат айсберг, курица на гриле, помидоры черри, специальный соус "цезарь", сыр пармезан</p>
+                    <div class="price-cart">
+                      <span class="price">4390₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Атеш.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Атеш</h5>
+                    <p class="card-text food-description">Говядина, помидоры, огурцы, болгарский перец, зелень, приправа, оливковое масло, грнатовый соус</p>
+                    <div class="price-cart">
+                      <span class="price">4590₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Ассорти%20мезе.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Ассорти мезе</h5>
+                    <p class="card-text food-description">В ассорти входит: салат из баклажан, езме, морковный таратор, хумус, чи кофте, сарма</p>
+                    <div class="price-cart">
+                      <span class="price">6790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Морковный%20таратор.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Морковный таратор</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">3890₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Джаджик.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Джадик</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">3990₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Тулум%20салат.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Тулум салат</h5>
+                    <p class="card-text food-description">Сыр тулум, зеленое яблоко, граната, изюм, грецкий орех, руккола, лук, гранатовый соус</p>
+                    <div class="price-cart">
+                      <span class="price">4690₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Gavurdag.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Gavurdag</h5>
+                    <p class="card-text food-description">Салат из измельченных овощей со свежим гранатом, в сочетании с грецким орехом и приправой сумах, что дает салату необычайный вкус</p>
+                    <div class="price-cart">
+                      <span class="price">3890₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Soups
+            Супы
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionDishes">
           <div class="accordion-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Этпача - 3390₸</li>
-              <li class="list-group-item">Чечевичный Суп - 2990₸</li>
-            </ul>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="images/Этпача.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Этпача</h5>
+                    <p class="card-text food-description">Турецкий кисломолочный суп с мелко рубленой говядиной. Идеальный суп для укрепления иммунитета.</p>
+                    <div class="price-cart">
+                      <span class="price">3590₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Чечевичный%20суп.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Чечевичный суп</h5>
+                    <p class="card-text food-description">Крем-суп на основе красной чечевицы, с давних времён чечевичный суп использовали как лекарство</p>
+                    <div class="price-cart">
+                      <span class="price">2990₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingFour">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            Pide
+            Пиде
           </button>
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionDishes">
           <div class="accordion-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Пиде С Мясом - 4690₸</li>
-              <li class="list-group-item">Пиде С Курицей - 4390₸</li>
-              <li class="list-group-item">Пиде С Фаршем - 4590₸</li>
-              <li class="list-group-item">Пиде С Сыром - 4290₸</li>
-              <li class="list-group-item">Пиде Донер - 6290₸</li>
-              <li class="list-group-item">Пиде С Суджуком - 4590₸</li>
-              <li class="list-group-item">Лахмаджун - 3390₸</li>
-              <li class="list-group-item">Пиде Ассорти - 4790₸</li>
-            </ul>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пиде%20с%20суджуком%20(турецкая%20колбаса).jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пиде с Суджуком (турецкая колбаса)</h5>
+                    <p class="card-text food-description">Турецкая лепешка с суджуком и двумя видами сыра (моцарелла и гауда)</p>
+                    <div class="price-cart">
+                      <span class="price">4890₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пиде%20с%20яйцом.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пиде с яйцом</h5>
+                    <p class="card-text food-description">Пиде с яичной начинкой</p>
+                    <div class="price-cart">
+                      <span class="price">4790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пиде%20с%20сыром.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пиде с сыром</h5>
+                    <p class="card-text food-description">Турецкая лепешка с двумя видами сыра (моцарелла и гауда)</p>
+                    <div class="price-cart">
+                      <span class="price">4590₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пиде%20ассорти.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пиде ассорти</h5>
+                    <p class="card-text food-description">Турецкая лепешка с мелкорубленным мясом, овощами (болгарский перец, помидоры) и двумя видами сыра (моцарелла и гауда)</p>
+                    <div class="price-cart">
+                      <span class="price">5190₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пиде%20с%20мясом.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пиде с мясом</h5>
+                    <p class="card-text food-description">Турецкая лепешка с мелкорубленным мясом и овощами (болгарский перец, помидоры)</p>
+                    <div class="price-cart">
+                      <span class="price">5090₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пиде%20с%20курицей%20и%20овощями.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пиде с курицей и овощами</h5>
+                    <p class="card-text food-description">Турецкая лепешка с мелкорубленной курицей и овощами (болгарский перец, помидоры)</p>
+                    <div class="price-cart">
+                      <span class="price">4790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пиде%20с%20фаршем.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пиде с фаршем</h5>
+                    <p class="card-text food-description">Турецкая лепешка с фаршем, овощами (болгарский перец, помидоры) и двумя видами сыра (моцарелла и гауда)</p>
+                    <div class="price-cart">
+                      <span class="price">4890₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пиде%20донер.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пиде донер</h5>
+                    <p class="card-text food-description">Наши любимые пиде и донер теперь вместе!</p>
+                    <div class="price-cart">
+                      <span class="price">1990₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -117,115 +613,1342 @@
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionDishes">
           <div class="accordion-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Барбекюз - 4990₸</li>
-              <li class="list-group-item">Salsa Meksikano - 4990₸</li>
-              <li class="list-group-item">Кремантар - 4990₸</li>
-              <li class="list-group-item">Лабиате - 4990₸</li>
-            </ul>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="images/Барбекюз.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Барбекюз</h5>
+                    <p class="card-text food-description">Обжаренные кусочки курицы, яркое и полезное сочетание с болгарским перцем с добавлением барбекю и соевого соуса - это вкусно, сытно и очень полезно.</p>
+                    <div class="price-cart">
+                      <span class="price">5490₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Salsa%20meksikana.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Salsa meksikano</h5>
+                    <p class="card-text food-description">Жареная куриная грудка в сливочно-соевом соусе. С болгарским перцем и халапенью.</p>
+                    <div class="price-cart">
+                      <span class="price">5490₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Кремантар.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Кремантар</h5>
+                    <p class="card-text food-description">Идеальное сочетание грибов, куриного филе и сливочного соуса дает невероятно ароматный и нежный вкус.</p>
+                    <div class="price-cart">
+                      <span class="price">5490₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Лабиате.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Лабиате</h5>
+                    <p class="card-text food-description">Это блюдо обладающее манящим ароматом. Благодаря сливкам и сырному соусу грудка получается не только сочной и ароматной, но и очень сытной</p>
+                    <div class="price-cart">
+                      <span class="price">5490₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingSix">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-            Pizza
+            Пицца
           </button>
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionDishes">
           <div class="accordion-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Fume Entrecote - 4890₸</li>
-              <li class="list-group-item">Пепперони - 4990₸</li>
-              <li class="list-group-item">Chick Пицца - 4590₸</li>
-              <li class="list-group-item">Пицца ЦЕЗАРЬ - 4590₸</li>
-              <li class="list-group-item">Пицца От Шефа - 4990₸</li>
-              <li class="list-group-item">Пицца С Суджуком - 4590₸</li>
-              <li class="list-group-item">Пицца «Маргаритта» - 4090₸</li>
-              <li class="list-group-item">4 Сыра - 4790₸</li>
-              <li class="list-group-item">Асадо - 4890₸</li>
-              <li class="list-group-item">Пицца «Mix» - 4790₸</li>
-              <li class="list-group-item">Мексика - 4790₸</li>
-            </ul>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="images/Лахмаджун.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Лахмаджун</h5>
+                    <p class="card-text food-description">Турецкая пицца лахмаджун - простое и сытное блюдо в виде тонкой лепешки, покрытое мясным фаршем и специями</p>
+                    <div class="price-cart">
+                      <span class="price">3590₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пицца%20%22Маргарита%22.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пицца "Маргарита"</h5>
+                    <p class="card-text food-description">Традиционная итальянская пицца. Состав этой пиццы необычайно простой. Ее основные ингредиенты: сыр моцарелла, сыр гауда, сочные помидоры и известный соус песто</p>
+                    <div class="price-cart">
+                      <span class="price">4390₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Маленькая</i>
+                    </div>
+                    <div class="price-cart">
+                      <span class="price">5090₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Большая</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пицца%20Цезарь.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пицца "Цезарь"</h5>
+                    <p class="card-text food-description">Пицца приготовленная на основе известного салата Цезарь! В состав которого входит: курица, сыр, айсберг, помидоры черри, перепелиные яйца и специальный соус Цезарь</p>
+                    <div class="price-cart">
+                      <span class="price">4890₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Маленькая</i>
+                    </div>
+                    <div class="price-cart">
+                      <span class="price">5390₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Большая</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пицца%20%22Мексикана%22.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пицца "Мексикана"</h5>
+                    <p class="card-text food-description">Пицца с фаршем, двумя видами сыра, добавкой томатного соуса, помидора, грибов, оливок и перца халапеньо по желанию</p>
+                    <div class="price-cart">
+                      <span class="price">5090₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Маленькая</i>
+                    </div>
+                    <div class="price-cart">
+                      <span class="price">5490₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Большая</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пицца%20с%20суджуком.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пицца с суджуком</h5>
+                    <p class="card-text food-description">Пицца со специальной турецкой колбасой, помидорами, двумя видами сыра, грибами, болгарским перцем и оливками</p>
+                    <div class="price-cart">
+                      <span class="price">4890₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Маленькая</i>
+                    </div>
+                    <div class="price-cart">
+                      <span class="price">5390₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Большая</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Mix%20Pizza.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Mix Pizza</h5>
+                    <p class="card-text food-description">Пицца для компании с 4-мя разными начинками, которая понравится каждому! В составе: суджук, курица, фарш, колбаса, помидоры и болгарский перец</p>
+                    <div class="price-cart">
+                      <span class="price">5090₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                    <div class="price-cart">
+                      <span class="price">5590₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Маленькая</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пепперони.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пеперони</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">4790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Средний</i>
+                    </div>
+                    <div class="price-cart">
+                      <span class="price">5290₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Большой</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Асадо%20пицца.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Асадо</h5>
+                    <p class="card-text food-description">Бекон халал, говяжьи вырезки, красный лук, авторский соус</p>
+                    <div class="price-cart">
+                      <span class="price">5190₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Средний</i>
+                    </div>
+                    <div class="price-cart">
+                      <span class="price">5790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Большой</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/4%20сыра.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">4 сыра</h5>
+                    <p class="card-text food-description">4 сыра отлично сочетается с соусом песто</p>
+                    <div class="price-cart">
+                      <span class="price">5090₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Средний</i>
+                    </div>
+                    <div class="price-cart">
+                      <span class="price">5590₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Большой</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Пицца%20от%20шефа.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Пицца от Шефа</h5>
+                    <p class="card-text food-description">Суджук, 2 вида колбасы, говяжье мясо, оливки, халал бекон, кукуруза</p>
+                    <div class="price-cart">
+                      <span class="price">5290₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Средний</i>
+                    </div>
+                    <div class="price-cart">
+                      <span class="price">5790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Большой</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Мексика%20пицца.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Мексика</h5>
+                    <p class="card-text food-description">Фарш из говядины, грибы, кисло-сладкий соус, халапеньо</p>
+                    <div class="price-cart">
+                      <span class="price">5090₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Средний</i>
+                    </div>
+                    <div class="price-cart">
+                      <span class="price">5490₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Большой</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Fume%20entrecote%20pizza.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Fume entrecote</h5>
+                    <p class="card-text food-description">Халал бекон, грибы, руккола, сыр пармезан, гауда и моцарелла</p>
+                    <div class="price-cart">
+                      <span class="price">5190₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Средний</i>
+                    </div>
+                    <div class="price-cart">
+                      <span class="price">5790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Большой</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Chick%20pizza.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Chick пицца</h5>
+                    <p class="card-text food-description">Жаренная курица, сыр, кисло-сладкий соус</p>
+                    <div class="price-cart">
+                      <span class="price">4890₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Средний</i>
+                    </div>
+                    <div class="price-cart">
+                      <span class="price">5390₸</span>
+                      <i class="ri-shopping-basket-fill add-cart">Большой</i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingSeven">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-            Burgers
+            Бургеры
           </button>
         </h2>
         <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionDishes">
           <div class="accordion-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Asado Бургер - 6290₸</li>
-              <li class="list-group-item">«Cosmic Mantar» - 5290₸</li>
-              <li class="list-group-item">«Dual Gusto» - 6490₸</li>
-              <li class="list-group-item">Bosna Бургер - 6990₸</li>
-              <li class="list-group-item">«ШЕФ» Бургер - 5490₸</li>
-              <li class="list-group-item">«Meat» Бургер - 5090₸</li>
-              <li class="list-group-item">«Дабл МИТ» - 6490₸</li>
-              <li class="list-group-item">«Chick Chick» Бургер - 4990₸</li>
-              <li class="list-group-item">Smoked Beef - 5290₸</li>
-            </ul>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="images/Meat%20бургер.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Meat бургер</h5>
+                    <p class="card-text food-description">Свежая хрустящая булочка, листики салата, маринованные огурчики, лук, ломтики расплавленного сыра, 2 вида соуса и большая сочная котлета</p>
+                    <div class="price-cart">
+                      <span class="price">5690₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/%22Шеф%22%20бургер.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">"Шеф" бургер</h5>
+                    <p class="card-text food-description">Самая сочная вырезка из мраморной говядины, покрытая ломтиком расплавленного сыра, маринованного огурца и кусочка свежего помидора на листе салата приправленный двумя видами соуса в подрумяненной булочке</p>
+                    <div class="price-cart">
+                      <span class="price">5990₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Chick%20chick.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Chick chick</h5>
+                    <p class="card-text food-description">Вкуснейший бургер, сделанный из молодого мяса курицы</p>
+                    <div class="price-cart">
+                      <span class="price">5390₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Cosmic%20mantar.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Cosmic mantar</h5>
+                    <p class="card-text food-description">Реально космический бургер! Ведь только попробовав кусочек, ты будто окажешься вне этого мира! Если ты не любил грибы, то полюбишь их, как только попробуешь эту космическую вкусность!</p>
+                    <div class="price-cart">
+                      <span class="price">5790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Дабл%20мит.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Дабл мит</h5>
+                    <p class="card-text food-description">Большая сочная котлета и самые вкусные вырезки из говядины теперь можно попробовать вместе!</p>
+                    <div class="price-cart">
+                      <span class="price">6990₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Dual%20gusto.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Dual gusto</h5>
+                    <p class="card-text food-description">Двойное наслаждение! Большой бургер который точно уталит ваш голод!</p>
+                    <div class="price-cart">
+                      <span class="price">6990₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Smoked%20beef.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Smoked beef</h5>
+                    <p class="card-text food-description">Бургер, который особенно понравится Вас, в состав которого входит: булочка, котлета, сыр, специальный соус, жареный лук, соленые огурцы, помидор, копченная говядина</p>
+                    <div class="price-cart">
+                      <span class="price">5790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Bosna%20бургер.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Bosna бургер</h5>
+                    <p class="card-text food-description">Двойное наслаждение! Сочетание сочной говяжьей и нежной грибной котлеты, ароматного красного лука и оригинального соуса релиш создают незабываемый вкус</p>
+                    <div class="price-cart">
+                      <span class="price">7490₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Asado%20бургер.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Asado бургер</h5>
+                    <p class="card-text food-description">Невероятно сочное мясо Ангус, тягучий сырный соус и ароматный красный лук создают идеальное сочетание</p>
+                    <div class="price-cart">
+                      <span class="price">6790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingEight">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-            Meat dishes
+            Мясные блюда
           </button>
         </h2>
         <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionDishes">
+            <div class="accordion-body">
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Карышык%20кебаб.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Карышык кебаб</h5>
+                      <p class="card-text food-description">Оптимальный вариант для большой компании. Здесь найдётся несколько разных предложений на любой вкус. Богатое мясное блюдо включает как пикантные, вкусные, так и нежные сочные мясные кусочки</p>
+                      <div class="price-cart">
+                        <span class="price">59990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Хашарлы%20кофте.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Хашарлы кофте</h5>
+                      <p class="card-text food-description">Большая сочная мясная котлета с тянущимся сыром и деревенской картошечкой! Вот что должно быть любимым всеми</p>
+                      <div class="price-cart">
+                        <span class="price">6990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Али%20назик.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Али назик</h5>
+                      <p class="card-text food-description">Именно баклажаны очень популярны в турецкой кухне! Такое сочетание баклажанов с мясом, которое точно заставит вас стать гурманом!</p>
+                      <div class="price-cart">
+                        <span class="price">6490₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Езмели%20кебаб.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Езмели кебаб</h5>
+                      <p class="card-text food-description">Необычайный кебаб, который стал таким из-за своего необычного сочетания овощей кёдзе запеченных на углях с маринованными мясом и результатного вкуса!</p>
+                      <div class="price-cart">
+                        <span class="price">6490₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Lollipop%20из%20мяса.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Lollipop из мяса</h5>
+                      <p class="card-text food-description">Тонко нарезанное бон филе, нежный фарш, 3 вида сыра и ароматные специи закрученные в рулет и нарезанные в виде леденца. Очень необыкновенно вкусное блюдо</p>
+                      <div class="price-cart">
+                        <span class="price">6890₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Шашлык%20по-турецки.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Шашлык по-турецки</h5>
+                      <p class="card-text food-description">Говядина DRY AGE в специальном горчичном маринаде</p>
+                      <div class="price-cart">
+                        <span class="price">6890₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Lantrecote.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Lantrecote</h5>
+                      <p class="card-text food-description">Это нежнейший кусок мяса говядины, который отрезается от хребта к ребрам. Такое мясо популярное во Франции и вообще в Европе приведёт вас к нереальному восторгу!</p>
+                      <div class="price-cart">
+                        <span class="price">6890₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Бейтисарма.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Бейтисарма</h5>
+                      <p class="card-text food-description">Настоящий турецкий люля-кебаб с сыром завернутый в нежный лаваш, политый специальным соусом и йогуртом</p>
+                      <div class="price-cart">
+                        <span class="price">6490₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Маниса.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Маниса</h5>
+                      <p class="card-text food-description">Маниса кебаб один из самых популярных кебабов в Манисе и Измире. На большое блюдо выкладывают хрустящие лепешки, затем кебабы из рубленного мяса, жаренные на углях картофель пай, поливают специальным красным соусом, йогуртом и раскаленным маслом</p>
+                      <div class="price-cart">
+                        <span class="price">6390₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Гамалы%20кофте.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Гамалы кофте</h5>
+                      <p class="card-text food-description">Сочные отбивные котлетки и сочетание хрустящих лепешек, ароматного томатного соуса и йогурта, что придаёт блюду яркий вкус</p>
+                      <div class="price-cart">
+                        <span class="price">6390₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Фирменное%20блюдо%20Meatpoint.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Фирменное блюдо Meatpoint</h5>
+                      <p class="card-text food-description">Изгара кофте, адана кебаб, шашлык из баранины, куриный шашлык, мини пиде с сыром, мини лахмаджун и различные гарниры</p>
+                      <div class="price-cart">
+                        <span class="price">8890₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Урфа%20кебаб.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Урфа кебаб</h5>
+                      <p class="card-text food-description">Сочный и очень аппетитный люля-кебаб из мяса молодого барашка и теленка, что придаёт ему особый вкус и аромат</p>
+                      <div class="price-cart">
+                        <span class="price">5790₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Адана%20кебаб.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Адана кебаб</h5>
+                      <p class="card-text food-description">Сочный и очень аппетитный острый люля-кебаб из теленка, что придаёт ему особый вкус и аромат</p>
+                      <div class="price-cart">
+                        <span class="price">5790₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Кебаб%20из%20говядины.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Кебаб из говядины</h5>
+                      <p class="card-text food-description">Нежное мясо теленка в специальном маринаде из пасты болгарского перца</p>
+                      <div class="price-cart">
+                        <span class="price">5990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Кебаб%20из%20баранины.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Кебаб из баранины</h5>
+                      <p class="card-text food-description">Очень вкусный и нежный шашлык в специальном маринаде из пасты болгарского перца</p>
+                      <div class="price-cart">
+                        <span class="price">6190₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Кебаб%20из%20печени.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Кебаб из печени</h5>
+                      <p class="card-text food-description">Нежно нарезанные кусочки печени и жира на шпажках</p>
+                      <div class="price-cart">
+                        <span class="price">5290₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Чоп-шиш.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Чоп-шиш</h5>
+                      <p class="card-text food-description">Маленькие кусочки мяса поджаренные на тонких деревянных шпажках</p>
+                      <div class="price-cart">
+                        <span class="price">5990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Кузу%20лукум.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Кузу лукум</h5>
+                      <p class="card-text food-description">Мягкие слойки из сочного жира и мяса молодого барашка</p>
+                      <div class="price-cart">
+                        <span class="price">6790₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Пирзола%20кебаб.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Пирзола кебаб</h5>
+                      <p class="card-text food-description">Сочный, ароматный и очень вкусный шашлык из бараньей корейки</p>
+                      <div class="price-cart">
+                        <span class="price">6690₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Бараньи%20ребрышки.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Бараньи ребрышки</h5>
+                      <p class="card-text food-description">Ребрышки представляют собой часть грудинки со слоем мышц, жира и ребрами - это мясо считается наиболее мягким, сочным и вкусным</p>
+                      <div class="price-cart">
+                        <span class="price">5990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Ассорти%20кебаб.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Ассорти кебаб</h5>
+                      <p class="card-text food-description">Шашлык, приготовленный на углях из мяса люля, барашка, теленка и курицы</p>
+                      <div class="price-cart">
+                        <span class="price">5990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Кебаб%20из%20курицы.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Кебаб из курицы</h5>
+                      <p class="card-text food-description">Сочный и ароматный шашлык из куриного филе с богатым букетом специй в специальном маринаде из пасты болгарского перца и помидоров чили</p>
+                      <div class="price-cart">
+                        <span class="price">5690₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Тавук%20изгара.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Тавук изгара</h5>
+                      <p class="card-text food-description">Сочный и ароматный стейк из куриного филе с богатым букетом специй и пряностей</p>
+                      <div class="price-cart">
+                        <span class="price">5790₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Тавук-канат.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Тавук-канат</h5>
+                      <p class="card-text food-description">Нежный и сочный, с хрустящей корочкой шашлык из куриных крылышек</p>
+                      <div class="price-cart">
+                        <span class="price">5690₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Кебаб%20с%20помидорами.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Кебаб с помидорами</h5>
+                      <p class="card-text food-description">Это вкуснейший сочный люля-кебаб с кусочками помидоров</p>
+                      <div class="price-cart">
+                        <span class="price">5790₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Овощной%20кебаб.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Овощной кебаб</h5>
+                      <p class="card-text food-description">Сочные и нежные грибы, кабачки, помидоры и баклажаны в маринаде с оливковым маслом. Такой шашлык станет отличным дополнением к мясному блюду</p>
+                      <div class="price-cart">
+                        <span class="price">5390₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Кебаб%20с%20баклажанами.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Кебаб с баклажанами</h5>
+                      <p class="card-text food-description">Это великолепный и сытный кебаб, который включает в себе сочетание сочных и ароматных баклажанов в томатном соусе</p>
+                      <div class="price-cart">
+                        <span class="price">6590₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Изгара%20кофте.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Изгара кофте</h5>
+                      <p class="card-text food-description">Сочные турецкие отбивные котлетки на углях с добавлениями специальных специй</p>
+                      <div class="price-cart">
+                        <span class="price">5990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Стейк%20без%20кости.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Стейк без кости</h5>
+                      <p class="card-text food-description">Ароматный и нежный стейк без костей. Для тех, кто не любит с костями! Выдержанный технологией DRY AGE более 40 дней</p>
+                      <div class="price-cart">
+                        <span class="price">12990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Тибон%20стейк.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Тибон стейк</h5>
+                      <p class="card-text food-description">Стейк, который нарезается из отруба шортлойн. Они разделяются тонкой косточкой, придающей приготовленному стейку легкий ореховый привкус. Это мясо с самой высокой степенью мраморности, которая обеспечивает стейку нежную текстуру и превосходный аромат. Выдержанный технологией DRY AGE более 40 дней</p>
+                      <div class="price-cart">
+                        <span class="price">12990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Рибай%20стейк.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Рибай стейк</h5>
+                      <p class="card-text food-description">Этот стейк получается насыщенным, сочным и полным вкусом с щедрой мраморностью. Подаётся на косточке. Благодаря исключительному вкусу и нежности стейка из говяжьих ребер понравится абсолютно всем! Выдержанный технологией DRY AGE более 40 дней</p>
+                      <div class="price-cart">
+                        <span class="price">12990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Лукум%20(бонфиле).png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Лукум (бонфиле)</h5>
+                      <p class="card-text food-description">Нежные кусочки говядины на хлебушке со свежим салатиком</p>
+                      <div class="price-cart">
+                        <span class="price">7590₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Hardal%20бонфиле.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Hardal бонфиле</h5>
+                      <p class="card-text food-description">Вырезки мраморного филе говядины в специальном маринаде от шефа! Именно этот стейк раскроет вам настоящий вкус стейка! Нежные и хрустящие кусочки говядины оставят в вашем сердце неповторимый вкус!</p>
+                      <div class="price-cart">
+                        <span class="price">7590₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Special%20бонфиле.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Special бонфиле</h5>
+                      <p class="card-text food-description">Вырезки мраморного филе говядины в специальном маринаде от шефа! Именно этот стейк раскроет вам настоящий вкус стейка! Нежные и хрустящие кусочки говядины оставят в вашем сердце неповторимый вкус!</p>
+                      <div class="price-cart">
+                        <span class="price">7590₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Beefsteak.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Beefsteak</h5>
+                      <p class="card-text food-description">Только самое лучшее и нежное мясо говядины в вкуснейшем маринаде пожаренное на углях специально для вас!</p>
+                      <div class="price-cart">
+                        <span class="price">7590₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Рыба%20дорада.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Рыба дорада</h5>
+                      <p class="card-text food-description">Красивая и экзотическая рыба "дорадо" подарит вам нежный и ароматный вкус, она также полна большим букетом витаминов, что полезно для здоровья</p>
+                      <div class="price-cart">
+                        <span class="price">8590₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Стейк%20из%20семги.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Стейк из семги</h5>
+                      <p class="card-text food-description">Аппетитный стейк из семги на гриле с нежнейшим вкусом и тонкой пряной корочкой</p>
+                      <div class="price-cart">
+                        <span class="price">8190₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Искандер%20кебаб.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Искандер кебаб</h5>
+                      <p class="card-text food-description">Это одно из популярнейших мясных блюд по всему миру. Он представляет собой хрустящие лепешки, тонкие слои мяса баранины и говядины, запеченные на огне, поливают ароматным томатным соусом, йогуртом и раскаленным маслом</p>
+                      <div class="price-cart">
+                        <span class="price">6290₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Донер%20дурум.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Донер дурум</h5>
+                      <p class="card-text food-description">Сочный, сытный донер с огромным количеством мяса и овощей, завернутый в хрустящий нежнейший лаваш</p>
+                      <div class="price-cart">
+                        <span class="price">4990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Донер%20на%20тарелке.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Донер на тарелке</h5>
+                      <p class="card-text food-description">Тонко срезанные, поджаренные на гриле кусочки мяса с добавлением различных специй и пряностей</p>
+                      <div class="price-cart">
+                        <span class="price">5990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Хашарлы%20мантар.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Хашарлы мантар</h5>
+                      <p class="card-text food-description">Сочное, мягкое и очень вкусное блюдо из грибов, запеченных с начинкой из сливочного масла под нежным расплавленным сыром</p>
+                      <div class="price-cart">
+                        <span class="price">5190₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Ичли%20кофте.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Ичли кофте</h5>
+                      <p class="card-text food-description">Традиционное турецкое блюдо, представляющее собой небольшие котлетки из мясного фарша с добавлением грецких орехов, в хрустящей обжаренной корочке из пшеничной крупы (булгура)</p>
+                      <div class="price-cart">
+                        <span class="price">3990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Манты%20по-турецки.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Манты по-турецки</h5>
+                      <p class="card-text food-description"></p>
+                      <div class="price-cart">
+                        <span class="price">4390₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Сач%20кавурма.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Сач кавурма</h5>
+                      <p class="card-text food-description">Традиционное турецкое блюдо, в котором баранина и овощи готовятся на сковороде сач с использованием ароматных трав и специй.</p>
+                      <div class="price-cart">
+                        <span class="price">6990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Чокертме%20кебаб.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Чокертме кебаб</h5>
+                      <p class="card-text food-description">Сочные ломтики бон-филе, выложенные на подушку из румяно-обжаренного картофелья. В сочетании сузме йогурта и томатного соуса</p>
+                      <div class="price-cart">
+                        <span class="price">6990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Сибас.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Сибас</h5>
+                      <p class="card-text food-description">Сибас - это утонченное сочетание нежности и свежести, с мягким, чуть сладковатым вкусом и легким морским ароматом.</p>
+                      <div class="price-cart">
+                        <span class="price">8490₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/Мини%20карышык%20кебаб.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title food-title">Мини карышык кебаб</h5>
+                      <p class="card-text food-description">На 3-4 человек
+                        Ассорти из боле 8 видов мяса. В нем собраны лучшие кебабы:
+                        из баранины, говядины, курицы, рёбрышки, люля, а также Адана и Урфа. Все эти блюда уже есть в нашем меню, но в ассорти они собраны вместе, чтобы по-настоящему порадовать любителей мяса.</p>
+                      <div class="price-cart">
+                        <span class="price">29990₸</span>
+                        <i class="ri-shopping-basket-fill add-cart"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingNine">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            Тепси кебаб
+          </button>
+        </h2>
+        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionDishes">
           <div class="accordion-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Пирзола Кебаб - 6190₸</li>
-              <li class="list-group-item">Тепси Пирзола - 6890₸</li>
-              <li class="list-group-item">Чоп-Шиш - 5990₸</li>
-              <li class="list-group-item">Гамалы Кофте - 5890₸</li>
-              <li class="list-group-item">Искандер Кебаб - 5890₸</li>
-              <li class="list-group-item">Шашлык По-Турецкий - 6390₸</li>
-              <li class="list-group-item">Тавук-Канат - 5290₸</li>
-              <li class="list-group-item">Special Бонфиле - 6990₸</li>
-              <li class="list-group-item">Lantrecote - 6290₸</li>
-              <li class="list-group-item">Фирменное Блюдо Meat Point - 8190₸</li>
-              <li class="list-group-item">Чокертме Кебаб - 6490₸</li>
-              <li class="list-group-item">Донер Дурум - 4690₸</li>
-              <li class="list-group-item">Езмели Кебаб - 5990₸</li>
-              <li class="list-group-item">Маниса Кебаб - 5890₸</li>
-              <li class="list-group-item">Кузу Лукум - 6290₸</li>
-              <li class="list-group-item">Мантарли Хашар - 4990₸</li>
-              <li class="list-group-item">Кебаб С Помидорами - 5290₸</li>
-              <li class="list-group-item">Донер На Тарелке - 5490₸</li>
-              <li class="list-group-item">Изгара Кофте - 5590₸</li>
-              <li class="list-group-item">Али Назик - 5990₸</li>
-              <li class="list-group-item">Тепси Кебаб - 6590₸</li>
-              <li class="list-group-item">Бейтисарма - 5990₸</li>
-              <li class="list-group-item">Тепси От Шефа - 6890₸</li>
-              <li class="list-group-item">Кебаб С Баклажанами - 5990₸</li>
-              <li class="list-group-item">Карышык Кебаб - 54990₸</li>
-              <li class="list-group-item">Рыба «Дорада» - 7990₸</li>
-              <li class="list-group-item">Сач Кавурма - 6490₸</li>
-              <li class="list-group-item">Урфа Кебаб - 5390₸</li>
-              <li class="list-group-item">Кебаб Из Курицы - 5290₸</li>
-              <li class="list-group-item">Адана Кебаб - 5390₸</li>
-              <li class="list-group-item">Овощи Гриль - 4890₸</li>
-              <li class="list-group-item">Тепси Кофте - 6090₸</li>
-              <li class="list-group-item">Кебаб Из Печени - 4790₸</li>
-              <li class="list-group-item">Сибас - 7790₸</li>
-              <li class="list-group-item">Бараньи Ребрышки - 5490₸</li>
-              <li class="list-group-item">Стейк Из Семги - 7690₸</li>
-              <li class="list-group-item">Хашарлы Кофте - 6190₸</li>
-              <li class="list-group-item">Кебаб Из Баранины - 5790₸</li>
-              <li class="list-group-item">Тавук Изгара - 5390₸</li>
-              <li class="list-group-item">Лукум Бонфиле - 6990₸</li>
-              <li class="list-group-item">Hardal Бонфиле - 6990₸</li>
-              <li class="list-group-item">Кебаб Из Говядины - 5690₸</li>
-              <li class="list-group-item">Ассорти Кебаб - 5590₸</li>
-              <li class="list-group-item">BEEFSTEAK - 6890₸</li>
-            </ul>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="images/Тепси%20кебаб.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Тепси кебаб</h5>
+                    <p class="card-text food-description">Вкуснейшая котлета из специального фарша с мелко рубленными овощами и пряностями, запеченная в печи. Такое блюдо получается очень ароматным и сочным</p>
+                    <div class="price-cart">
+                      <span class="price">7090₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Тепси%20кофте.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Тепси кофте</h5>
+                    <p class="card-text food-description">Сочные котлетки из говядины запеченные с овощами в собственном соку с неповторимым соусом! Вкус который запомнится вам надолго!</p>
+                    <div class="price-cart">
+                      <span class="price">6590₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Тепси%20от%20шефа.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Тепси от Шефа</h5>
+                    <p class="card-text food-description">Ароматное, сочное блюдо, запеченое в печи</p>
+                    <div class="price-cart">
+                      <span class="price">7390₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Тепси%20пирзола.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Тепси пирзола</h5>
+                    <p class="card-text food-description">Это ароматные бараньи корейки, запеченные в печи с тщательно подобранными специями и зеленью</p>
+                    <div class="price-cart">
+                      <span class="price">7390₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+            Гарниры
+          </button>
+        </h2>
+        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionDishes">
+          <div class="accordion-body">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="images/Рис.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Рис</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">1990₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Картофель%20фри.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Картофель фри</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">1990₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Йогурт</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">1690₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingEleven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+            Соусы
+          </button>
+        </h2>
+        <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionDishes">
+          <div class="accordion-body">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="images/Чесночный%20соус.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Чесночный соус</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">390₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Соус%20от%20шефа.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Соус от Шефа</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">450₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Сузме йогурт</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">2290₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwelve">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+            Хлебобулочные изделия
+          </button>
+        </h2>
+        <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionDishes">
+          <div class="accordion-body">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="images/Лепешка.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Лепешка</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">690₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Шиш%20лаваш.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Шиш лаваш</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">1990₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Лаваш</h5>
+                    <p class="card-text food-description"></p>
+                    <div class="price-cart">
+                      <span class="price">690₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThirteen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+            Детское меню
+          </button>
+        </h2>
+        <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionDishes">
+          <div class="accordion-body">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="images/Kids%20mix.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Kids mix</h5>
+                    <p class="card-text food-description">Любимые вкусы детей в одной тарелке: хрустящие бореки, сыр, свежие овощи и сладкий шоколад. Сбалансировано, вкусно и с заботой</p>
+                    <div class="price-cart">
+                      <span class="price">2790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Мини%20котлеты%20говяжие.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Мини котлеты говяжий</h5>
+                    <p class="card-text food-description">Домашние говяжьи мини-котлетики, сочные и мягкие, с гарниром</p>
+                    <div class="price-cart">
+                      <span class="price">2790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Мини%20котлеты%20куриные.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Мини котлеты куриные</h5>
+                    <p class="card-text food-description">Нежная куриная котлета в мягкой булочке с кетчупом легкий и любимый детьми вариант</p>
+                    <div class="price-cart">
+                      <span class="price">2790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Мини%20бургеры%20говяжие.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Мини бургеры говяжий</h5>
+                    <p class="card-text food-description">Сочная говяжья котлета в мягкой булочке, подается с кетчупом. Просто и вкусно</p>
+                    <div class="price-cart">
+                      <span class="price">2790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/Мини%20бургеры%20куриные.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title food-title">Мини бургеры куриные</h5>
+                    <p class="card-text food-description">Нежная куриная котлета в мягкой булочке с кетчупом легкий и любимый детьми вариант</p>
+                    <div class="price-cart">
+                      <span class="price">2790₸</span>
+                      <i class="ri-shopping-basket-fill add-cart"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
