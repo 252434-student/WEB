@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2986c1d8-c18d-4ca4-81f8-0c9dcbced7f6" name="Changes" comment="commiting readme">
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    <list default="true" id="2986c1d8-c18d-4ca4-81f8-0c9dcbced7f6" name="Changes" comment="commiting the freaking menu">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Meat-Point-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat-Point-menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +179,9 @@
       <workItem from="1791979518739" duration="191000" />
       <workItem from="1791979729027" duration="3436000" />
       <workItem from="1792231450465" duration="10000" />
-      <workItem from="1792231464457" duration="24253000" />
+      <workItem from="1792231464457" duration="24320000" />
+      <workItem from="1792316345422" duration="541000" />
+      <workItem from="1792316890576" duration="10841000" />
     </task>
     <task id="LOCAL-00001" summary="commit try">
       <option name="closed" value="true" />
@@ -230,7 +231,55 @@
       <option name="project" value="LOCAL" />
       <updated>1791292382509</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commiting the freaking menu">
+      <option name="closed" value="true" />
+      <created>1792259575997</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1792259575997</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commiting the freaking menu">
+      <option name="closed" value="true" />
+      <created>1792259581214</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1792259581214</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commiting the freaking menu">
+      <option name="closed" value="true" />
+      <created>1792259593288</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1792259593288</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commiting the freaking menu">
+      <option name="closed" value="true" />
+      <created>1792259597212</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1792259597212</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commiting the freaking menu">
+      <option name="closed" value="true" />
+      <created>1792259598544</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1792259598544</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commiting the freaking menu">
+      <option name="closed" value="true" />
+      <created>1792259599960</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1792259599960</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +314,7 @@
     <MESSAGE value="commiting new changes" />
     <MESSAGE value="commiting menu page" />
     <MESSAGE value="commiting readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="commiting readme" />
+    <MESSAGE value="commiting the freaking menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="commiting the freaking menu" />
   </component>
 </project>
