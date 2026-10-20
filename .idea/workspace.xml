@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2986c1d8-c18d-4ca4-81f8-0c9dcbced7f6" name="Changes" comment="commiting the freaking menu">
+    <list default="true" id="2986c1d8-c18d-4ca4-81f8-0c9dcbced7f6" name="Changes" comment="commiting the javascript setup">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Meat-Point-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat-Point-menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +184,9 @@
       <workItem from="1792316345422" duration="541000" />
       <workItem from="1792316890576" duration="11538000" />
       <workItem from="1792416051691" duration="8000" />
-      <workItem from="1792416061980" duration="3374000" />
+      <workItem from="1792416061980" duration="3413000" />
+      <workItem from="1792502426846" duration="10000" />
+      <workItem from="1792502439589" duration="1874000" />
     </task>
     <task id="LOCAL-00001" summary="commit try">
       <option name="closed" value="true" />
@@ -288,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792330248404</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commiting the javascript setup">
+      <option name="closed" value="true" />
+      <created>1792419475323</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1792419475323</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +336,7 @@
     <MESSAGE value="commiting menu page" />
     <MESSAGE value="commiting readme" />
     <MESSAGE value="commiting the freaking menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="commiting the freaking menu" />
+    <MESSAGE value="commiting the javascript setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="commiting the javascript setup" />
   </component>
 </project>
