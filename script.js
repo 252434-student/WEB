@@ -7,13 +7,14 @@ cartClose.addEventListener("click", () => cart.classList.remove("active"));
 
 const addCartButtons = document.querySelectorAll(".add-cart");
 addCartButtons.forEach(button => {button.addEventListener("click", event=>{
-    const productBox = event.target.closest(".product-box");
+    const productBox = event.target.closest(".food-item");
     addToCart(productBox);
 })})
 
-const addToCart = (productBox) => {
+const cartContent = document.querySelector(".cart-content");
+const addToCart = productBox => {
     const productImgSrc = productBox.querySelector("img").src;
-    const productTitle = productBox.querySelector(".product-title").textContent;
+    const productTitle = productBox.querySelector(".food-title").textContent;
     const productPrice = productBox.querySelector(".price").textContent;
 
     const cartItems = productBox.querySelectorAll(".cart-product-title");
@@ -29,7 +30,7 @@ const addToCart = (productBox) => {
     cartBox.innerHTML = `
        <img src="${productImgSrc}" class="cart-image" alt="">
        <div class="cart-detail">
-            <h2 class="cart-product-title">${productTitle}</h2>
+            <h5 class="cart-product-title">${productTitle}</h5>
             <span class="cart-price">${productPrice}</span>
             <div class="cart-quantity">
                 <button id="decrement">-</button>
@@ -72,7 +73,7 @@ const addToCart = (productBox) => {
 
 const calculateTotalPrice = () => {
     const totalPrice = document.querySelector('.total-price');
-    const cartContent = document.querySelectorAll('.cart-box');
+    const cartBoxes = document.querySelectorAll('.cart-box');
     let total = 0;
     cartBoxes.forEach(cartBox =>{
         const priceElement = cartBox.querySelector('.price');
