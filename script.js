@@ -76,7 +76,7 @@ const calculateTotalPrice = () => {
     const cartBoxes = document.querySelectorAll('.cart-box');
     let total = 0;
     cartBoxes.forEach(cartBox =>{
-        const priceElement = cartBox.querySelector('.price');
+        const priceElement = cartBox.querySelector('.cart-price');
         const quantityElement = cartBox.querySelector('.number');
         const price = priceElement.textContent.replace("₸","");
         const quantity = quantityElement.textContent;
