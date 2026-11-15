@@ -19,7 +19,7 @@ const addToCart = productBox => {
 
     const cartItems = productBox.querySelectorAll(".cart-product-title");
     for(let item of cartItems) {
-        if(item.textContent === productTitle){
+        if(item.textContent == productTitle){
             alert("This item is already in the cart!");
             return;
         }
@@ -80,7 +80,7 @@ const calculateTotalPrice = () => {
         const quantityElement = cartBox.querySelector('.number');
         const price = priceElement.textContent.replace("₸","");
         const quantity = quantityElement.textContent;
-        total = price * quantity;
+        total += price * quantity;
     });
     totalPrice.textContent = `${total}₸`;
 };

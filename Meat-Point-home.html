@@ -6,55 +6,43 @@
   <meta name="description" content="Home page">
   <title>Meat restaurant Meat-Point</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet">
 
   <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/personal.css">
-
-  <script>
-    $(document).ready(function () {
-      $("button").click(function () {
-        $("#info").fadeIn();
-        $("button").hide();
-      })
-    })
-  </script>
 </head>
 <body>
 <nav class="nav nav-tabs sticky-top">
-  <a class="nav-link active" href="Meat-Point-home.html">Home</a>
-  <a class="nav-link" href="Meat-Point-menu.html">Menu</a>
-  <a class="nav-link" href="Meat-Point-aboutus.html">About</a>
-  <a class="nav-link" href="Meat-Point-contact.html">Contact</a>
+  <a class="nav-link active" href="Meat-Point-home.html">О нас</a>
+  <a class="nav-link" href="Meat-Point-menu.html">Меню</a>
+  <a class="nav-link" href="Meat-Point-reservation.html">Забронировать</a>
   <a class="nav-link" href="signin.html"><i class="ri-user-line"></i></a>
 </nav>
-<main style="height:800px;background-image: url('images/image3.png');background-size:cover;background-position:center">
-  <div class="container justify-content-center" style="width: 80%; background-color: goldenrod; border-radius: 15px;">
-    <h2 class="text-center" style="color: white; padding: 20px">Добро пожаловать в Meat Point!</h2>
-    <h5 class="text-center" style="color: white; padding-bottom: 15px">Ресторан турецкой кухни</h5>
-  </div>
-  <br>
-  <button class="btn btn-primary btn-lg position-absolute top-10 start-50 translate-middle" style="background-color: goldenrod; border-color: darkred">Показать больше</button>
-  <div id="info" class="card-group" style="display: none">
-      <div class="card col-sm-8">
-        <div class="card-body">
-          <h5 class="card-title">Наше меню:</h5><hr>
-          <p class="card-text">Больше сотни турецких блюд, десертов и напитков. Каждый найдет себе что-нибудь по вкусу.</p>
-        </div>
-      </div>
-      <div class="card col-sm-8">
-        <div class="card-body">
-          <h5 class="card-title">Узнайте больше о нас:</h5><hr>
-          <p class="card-text"><a href="https://www.instagram.com/meatpoint.astana/">Наш Instagram.</a></p>
-        </div>
-      </div>
-      <div class="card col-sm-8">
-        <div class="card-body">
-          <h5 class="card-title">Забронируйте стол</h5><hr>
-          <p class="card-text">Позвоните нам и забронируйте стол для себя и своей семьи.</p>
-        </div>
-      </div>
+<main>
+  <div class="container">
+    <div class="container-inner">
+      <img src="images/logo-meatpoint.jpg" alt="" style="width: 30% !important;">
+      <h4>Добро пожаловать в Meat Point!</h4>
+      <p>Ресторан турецкой кухни с сотней традиционных блюд, десертов и напитков.</p>
+    </div>
+    <div class="container-inner">
+      <img src="images/bgimage2.jpg" alt="">
+      <h4>Уютная атмосфера</h4>
+      <p>2-х этажный тематический ресторан с летником создают приятную среду для семейных и дружеских мероприятий.</p>
+    </div>
+    <div class="container-inner">
+      <img src="images/image1.png" alt="">
+      <h4>Где нас найти</h4>
+      <p>Наш адрес: проспект Улы Дала, 45, Астана</p>
+      <a href="https://2gis.kz/astana/firm/70000001027751110?m=71.421247%2C51.096862%2F16">2GIS</a>
+      <br>
+      <a href="https://maps.app.goo.gl/oU1mTqPJqeqCRNAN6">Google Maps</a>
+    </div>
+    <div class="container-inner">
+      <img src="images/instagram-logo.jpeg" alt="" style="width: 100px !important; height: 100px !important;">
+      <h4>Наши соц-сети</h4>
+      <p>Следите за актуальными новостями подписавшись на наш Instagram.</p>
+      <a href="https://www.instagram.com/meatpoint.astana/">Instagram</a>
+    </div>
   </div>
 </main>
 </body>

@@ -1,23 +1,29 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background-color: lightgoldenrodyellow;
+}
 .nav {
-    border : 1px solid darkred; !important;
-    background-color: darkgoldenrod; !important;
+    border : 1px solid black; !important;
+    background-color: orange; !important;
+    margin: 20px;
+    border-radius: 10px;
 }
 .nav .nav-link{
     color: white !important;
+    border-radius: 10px;
 }
 .nav .nav-link:hover{
     color: black !important;
-    border-radius: 0;
-    border-color: darkred !important;
-    background-color: goldenrod !important;
+    border-radius: 10px;
+    border-color: black !important;
+    background-color: gold !important;
 }
 .nav .active{
-    border-radius: 0;
-    border-color: darkred !important;
-    background-color: darkred !important;
+    border-radius: 10px;
+    border-color: black !important;
+    background-color: gold !important;
 }
 
 .price-cart{
@@ -159,4 +165,35 @@ input[type=reset] {
 }
 input[type=reset]:hover {
     background-color: orange;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container-inner{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 1px;
+    border: 1px solid black;
+    background-color: white;
+}
+.container-inner img{
+    border-radius: 10px;
+    float: left;
+    max-width: 200px;
+    max-height: 250px;
+    width: 40%;
+    height: 30%;
+    margin: 10px;
+}
+.container-inner h4{
+    padding: 10px;
+}
+
+.btn-primary{
+    background-color: gold !important;
+    border-color: goldenrod !important;
+}
+.btn .btn-primary:hover{
+    background-color: orange !important;
 }
