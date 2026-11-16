@@ -9,26 +9,53 @@ const addCartButtons = document.querySelectorAll(".add-cart");
 addCartButtons.forEach(button => {button.addEventListener("click", event=>{
     const productBox = event.target.closest(".food-item");
     addToCart(productBox);
-})})
+    calculateTotalPrice();
+    updateCartCount();
+})});
+
+function calculateTotalPrice(){
+    const totalPrice = document.querySelector('.total-price');
+    const cartBoxes = document.querySelectorAll('.cart-box');
+    let total = 0;
+    for (const cartBox of cartBoxes) {
+        const priceElement = cartBox.querySelector('.cart-price');
+        const quantityElement = cartBox.querySelector('.number');
+        const price = priceElement.textContent.replace("₸","");
+        const quantity = quantityElement.textContent;
+        total += Number(price) * Number(quantity);
+    }
+    totalPrice.textContent = total+'₸';
+}
+
+let cartItemCount = 0;
+function updateCartCount(){
+    const cartIcon = document.querySelector(".cart-icon");
+    const cartBoxes = document.querySelectorAll('.cart-box');
+    if(cartBoxes.length > 0){
+        cartIcon.classList.add("notify");
+    }
+    else{
+        cartIcon.classList.remove("notify");
+    }
+}
 
 const cartContent = document.querySelector(".cart-content");
-const addToCart = productBox => {
-    const productImgSrc = productBox.querySelector("img").src;
+function addToCart(productBox){
     const productTitle = productBox.querySelector(".food-title").textContent;
     const productPrice = productBox.querySelector(".price").textContent;
 
-    const cartItems = productBox.querySelectorAll(".cart-product-title");
+    const cartItems = cartContent.querySelectorAll(".cart-product-title");
     for(let item of cartItems) {
-        if(item.textContent == productTitle){
-            alert("This item is already in the cart!");
+        if(item.textContent === productTitle){
+            alert("Это блюдо уже находится в корзине!");
             return;
         }
     }
+    alert("Добавлено в корзину!");
 
     const cartBox = document.createElement("div");
     cartBox.classList.add("cart-box");
     cartBox.innerHTML = `
-       <img src="${productImgSrc}" class="cart-image" alt="">
        <div class="cart-detail">
             <h5 class="cart-product-title">${productTitle}</h5>
             <span class="cart-price">${productPrice}</span>
@@ -44,8 +71,8 @@ const addToCart = productBox => {
 
     cartBox.querySelector(".cart-remove").addEventListener("click", event=>{
         cartBox.remove();
-        updateCartCount(-1);
         calculateTotalPrice();
+        updateCartCount();
     });
 
     cartBox.querySelector(".cart-quantity").addEventListener("click", event=>{
@@ -67,47 +94,21 @@ const addToCart = productBox => {
         numberElement.textContent = quantity;
         calculateTotalPrice();
     });
-    updateCartCount(1);
-    calculateTotalPrice();
-};
+}
 
-const calculateTotalPrice = () => {
-    const totalPrice = document.querySelector('.total-price');
-    const cartBoxes = document.querySelectorAll('.cart-box');
-    let total = 0;
-    cartBoxes.forEach(cartBox =>{
-        const priceElement = cartBox.querySelector('.cart-price');
-        const quantityElement = cartBox.querySelector('.number');
-        const price = priceElement.textContent.replace("₸","");
-        const quantity = quantityElement.textContent;
-        total += price * quantity;
-    });
-    totalPrice.textContent = `${total}₸`;
-};
-
-let cartItemCount = 0;
-const updateCartCount = change => {
-    const cartItemCountBadge = document.querySelector(".cart-item-count");
-    cartitemCount += change;
-    if(cartItemCount > 0){
-        cartItemCountBadge.style.visibility = "visible";
-        cartItemCountBadge.textContent = cartItemCount;
-    }
-    else{
-        cartItemCountBadge.style.visibility = "hidden";
-        cartItemCountBadge.textContent = "";
-    }
-};
 
 const buyNowButton = document.querySelector(".btn-buy");
 buyNowButton.addEventListener("click", event=>{
     const cartBoxes = cartContent.querySelectorAll(".cart-box");
     if(cartBoxes.length === 0){
-        alert("Your cart is empty. Please add items before purchasing.")
+        alert("Ваша корзина пуста. Добавьте в неё блюда перед заказом.");
         return;
     }
-    cartBoxes.forEach(cartBox => cartBox.remove());
+    alert("Спасибо за ваш заказ!");
+    for (const cartBox of cartBoxes) {
+        cartBox.remove();
+    }
     cartItemCount = 0;
-    updateCartCount(0);
     calculateTotalPrice();
-})
+    updateCartCount();
+});

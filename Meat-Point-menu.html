@@ -8,36 +8,71 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="css/base.css">
+  <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      $("#dish").click(function(){
+        $("#accordionDishes").show();
+        $("#accordionDrinks").hide();
+        $("#accordionDesserts").hide();
+      });
+      $("#drink").click(function(){
+        $("#accordionDishes").hide();
+        $("#accordionDrinks").show();
+        $("#accordionDesserts").hide();
+      });
+      $("#dessert").click(function(){
+        $("#accordionDishes").hide();
+        $("#accordionDrinks").hide();
+        $("#accordionDesserts").show();
+      });
+    })
+  </script>
 </head>
 <body>
-<nav class="nav nav-tabs sticky-top">
+<nav class="nav nav-tabs sticky-top nav-fill">
   <a class="nav-link" href="Meat-Point-home.html">О нас</a>
   <a class="nav-link active" href="Meat-Point-menu.html">Меню</a>
   <a class="nav-link" href="Meat-Point-reservation.html">Забронировать</a>
-  <div id="cart-icon" class="nav-link">
-    <i class="ri-shopping-bag-line"></i>
-    <span class="cart-item-count"></span>
-  </div>
   <a class="nav-link" href="signin.html"><i class="ri-user-line"></i></a>
 </nav>
+<hr>
 <div class="cart">
-  <h2 class="cart-title">Your cart</h2>
+  <h2 class="cart-title">Ваша корзина</h2>
   <div class="cart-content">
 
   </div>
   <div class="total">
-    <div class="total-title">Total</div>
+    <div class="total-title">Сумма</div>
     <div class="total-price">0₸</div>
   </div>
   <form>
-
+    <label for="creditcard">Номер карты:</label>
+    <input type="text" id="creditcard">
+    <br>
+    <label for="cvv">CVV</label>
+    <input type="text" id="cvv">
+    <br>
+    <label for="address">Адрес доставки</label>
+    <input type="text" id="address">
+    <br>
+    <label for="phone">Ваш телефон:</label>
+    <input type="text" id="phone">
   </form>
-  <button class="btn-buy">Buy Now</button>
+  <button class="btn-buy">Заказать</button>
   <i class="ri-close-line" id="cart-close"></i>
 </div>
   <main>
-    <h1 style="color:black; text-align: center; padding: 10px; margin: 0">МЕНЮ БЛЮД:</h1>
+    <nav class="nav nav-pills nav-fill">
+      <a href="#accordionDishes" id="dish" class="nav-link">Горячие блюда</a>
+      <a href="#accordionDrinks" id="drink" class="nav-link">Напитки</a>
+      <a href="#accordionDesserts" id="dessert" class="nav-link">Десерты</a>
+      <div id="cart-icon" class="nav-link cart-icon">
+        <i class="ri-shopping-bag-line"></i>
+        <span class="cart-item-count"></span>
+      </div>
+    </nav>
     <div class="accordion" id="accordionDishes">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
@@ -1972,7 +2007,7 @@
         </div>
       </div>
     </div>
-    <h1 style="color:black; text-align: center; padding: 10px; margin: 0">МЕНЮ НАПИТКОВ:</h1>
+
     <div class="accordion" id="accordionDrinks">
       <div class="accordion-item">
         <h2 class="accordion-header" id="heading1">
@@ -2205,124 +2240,157 @@
           <div class="accordion-body">
             <ul class="list-group list-group-flush">
               <li class="list-group-item food-item">
-                <h5 class="food-title">Киви-лайм</h5>
+                <h5 class="food-title">Киви-лайм --- 0.3л</h5>
                 <div class="price-cart">
                   <span class="price">1490₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
-                </div>
-                <div class="price-cart">
-                  <span class="price">2890₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
-                <h5 class="food-title">Киви-маракуйя</h5>
-                <div class="price-cart">
-                  <span class="price">1490₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
-                </div>
+                <h5 class="food-title">Киви-лайм --- 1л</h5>
                 <div class="price-cart">
                   <span class="price">2890₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
-                <h5 class="food-title">Киви-клубника</h5>
+                <h5 class="food-title">Киви-маракуйя --- 0.3л</h5>
                 <div class="price-cart">
                   <span class="price">1490₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
-                </div>
-                <div class="price-cart">
-                  <span class="price">2890₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
-                <h5 class="food-title">Клубника-маракуйя</h5>
-                <div class="price-cart">
-                  <span class="price">1490₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
-                </div>
+                <h5 class="food-title">Киви-маракуйя --- 1л</h5>
                 <div class="price-cart">
                   <span class="price">2890₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
-                <h5 class="food-title">Манго-маракуйя</h5>
+                <h5 class="food-title">Киви-клубника --- 0.3л</h5>
                 <div class="price-cart">
                   <span class="price">1490₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
-                </div>
-                <div class="price-cart">
-                  <span class="price">2890₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
-                <h5 class="food-title">Мохито-клубника</h5>
-                <div class="price-cart">
-                  <span class="price">1490₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
-                </div>
+                <h5 class="food-title">Киви-клубника --- 1л</h5>
                 <div class="price-cart">
                   <span class="price">2890₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
-                <h5 class="food-title">Мохито</h5>
+                <h5 class="food-title">Клубника-маракуйя --- 0.3л</h5>
                 <div class="price-cart">
                   <span class="price">1490₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
-                </div>
-                <div class="price-cart">
-                  <span class="price">2890₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
-                <h5 class="food-title">Мохито-смородина</h5>
-                <div class="price-cart">
-                  <span class="price">1490₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
-                </div>
+                <h5 class="food-title">Клубника-маракуйя --- 1л</h5>
                 <div class="price-cart">
                   <span class="price">2890₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
-                <h5 class="food-title">Тропический</h5>
+                <h5 class="food-title">Манго-маракуйя --- 0.3л</h5>
                 <div class="price-cart">
                   <span class="price">1490₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
-                </div>
-                <div class="price-cart">
-                  <span class="price">2890₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
-                <h5 class="food-title">Цитрусовый</h5>
-                <div class="price-cart">
-                  <span class="price">1490₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
-                </div>
+                <h5 class="food-title">Манго-маракуйя --- 1л</h5>
                 <div class="price-cart">
                   <span class="price">2890₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
-                <h5 class="food-title">Ягодный микс</h5>
+                <h5 class="food-title">Мохито-клубника --- 0.3л</h5>
                 <div class="price-cart">
                   <span class="price">1490₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Мохито-клубника --- 1л</h5>
                 <div class="price-cart">
                   <span class="price">2890₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
+                </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Мохито --- 0.3л</h5>
+                <div class="price-cart">
+                  <span class="price">1490₸</span>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
+                </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Мохито --- 1л</h5>
+                <div class="price-cart">
+                  <span class="price">2890₸</span>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
+                </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Мохито-смородина --- 0.3л</h5>
+                <div class="price-cart">
+                  <span class="price">1490₸</span>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
+                </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Мохито-смородина --- 1л</h5>
+                <div class="price-cart">
+                  <span class="price">2890₸</span>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
+                </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Тропический --- 0.3л</h5>
+                <div class="price-cart">
+                  <span class="price">1490₸</span>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
+                </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Тропический --- 1л</h5>
+                <div class="price-cart">
+                  <span class="price">2890₸</span>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
+                </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Цитрусовый --- 0.3л</h5>
+                <div class="price-cart">
+                  <span class="price">1490₸</span>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
+                </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Цитрусовый --- 1л</h5>
+                <div class="price-cart">
+                  <span class="price">2890₸</span>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
+                </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Ягодный микс --- 0.3л</h5>
+                <div class="price-cart">
+                  <span class="price">1490₸</span>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
+                </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Ягодный микс --- 1л</h5>
+                <div class="price-cart">
+                  <span class="price">2890₸</span>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
             </ul>
@@ -2373,36 +2441,45 @@
           <div class="accordion-body">
             <ul class="list-group list-group-flush">
               <li class="list-group-item food-item">
-                <h5 class="food-title">Coca cola</h5>
+                <h5 class="food-title">Coca cola --- 0.25л</h5>
                 <div class="price-cart">
                   <span class="price">1090₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,25л</i>
-                </div>
-                <div class="price-cart">
-                  <span class="price">1190₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,5л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
-                <h5 class="food-title">Sprite</h5>
-                <div class="price-cart">
-                  <span class="price">1090₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,25л</i>
-                </div>
+                <h5 class="food-title">Coca cola --- 0.5л</h5>
                 <div class="price-cart">
                   <span class="price">1190₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,5л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
-                <h5 class="food-title">Fanta</h5>
+                <h5 class="food-title">Sprite --- 0.25л</h5>
                 <div class="price-cart">
                   <span class="price">1090₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,25л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Sprite --- 0.5л</h5>
                 <div class="price-cart">
                   <span class="price">1190₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,5л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
+                </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Fanta --- 0.25л</h5>
+                <div class="price-cart">
+                  <span class="price">1090₸</span>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
+                </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Fanta --- 0.5л</h5>
+                <div class="price-cart">
+                  <span class="price">1190₸</span>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
@@ -2455,49 +2532,64 @@
             <ul class="list-group list-group-flush">
               <li class="list-group-item food-item">
                 <img src="images/Домашний%20лимонад.png" class="card-img-top" alt="">
-                <h5 class="food-title">Домашний лимонад</h5>
+                <h5 class="food-title">Домашний лимонад --- 0.3л</h5>
                 <div class="price-cart">
                   <span class="price">1290₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
+              </li>
+              <li class="list-group-item food-item">
+                <img src="images/Домашний%20лимонад.png" class="card-img-top" alt="">
+                <h5 class="food-title">Домашний лимонад --- 1л</h5>
                 <div class="price-cart">
                   <span class="price">2490₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
                 <img src="images/Компот.jpeg" class="card-img-top" alt="">
-                <h5 class="food-title">Компот</h5>
+                <h5 class="food-title">Компот --- 0.3л</h5>
                 <div class="price-cart">
                   <span class="price">1090₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
+              </li>
+              <li class="list-group-item food-item">
+                <img src="images/Компот.jpeg" class="card-img-top" alt="">
+                <h5 class="food-title">Компот --- 1л</h5>
                 <div class="price-cart">
                   <span class="price">2290₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
                 <img src="images/Морс%20из%20вишни.png" class="card-img-top" alt="">
-                <h5 class="food-title">Морс из вишни</h5>
+                <h5 class="food-title">Морс из вишни --- 0.3л</h5>
                 <div class="price-cart">
                   <span class="price">1290₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
-                </div>
-                <div class="price-cart">
-                  <span class="price">2490₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
               <li class="list-group-item food-item">
-                <h5 class="food-title">Турецкий айран</h5>
+                <img src="images/Морс%20из%20вишни.png" class="card-img-top" alt="">
+                <h5 class="food-title">Морс из вишни --- 1л</h5>
+                <div class="price-cart">
+                  <span class="price">2490₸</span>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
+                </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Турецкий айран --- 0.3л</h5>
                 <div class="price-cart">
                   <span class="price">1090₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">0,3л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
+              </li>
+              <li class="list-group-item food-item">
+                <h5 class="food-title">Турецкий айран --- 1л</h5>
                 <div class="price-cart">
                   <span class="price">2090₸</span>
-                  <i class="ri-shopping-basket-fill add-cart">1л</i>
+                  <i class="ri-shopping-basket-fill add-cart"></i>
                 </div>
               </li>
             </ul>
@@ -2566,7 +2658,7 @@
         </div>
       </div>
     </div>
-    <h1 style="color: black; text-align: center; padding: 10px">МЕНЮ ДЕСЕРТОВ:</h1>
+
     <div class="accordion" id="accordionDesserts" style="padding-bottom: 100px">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingDessert1">

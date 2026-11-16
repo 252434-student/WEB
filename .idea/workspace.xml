@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="242be5db-3173-4da6-b02f-4763ec7ea653" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Meat-Point-reservation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="242be5db-3173-4da6-b02f-4763ec7ea653" name="Changes" comment="Changes for final exam">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Meat-Point-aboutus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Meat-Point-contact.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Meat-Point-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat-Point-home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Meat-Point-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat-Point-menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Meat-Point-reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat-Point-reservation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/personal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/signin.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/signin.html" afterDir="false" />
     </list>
@@ -39,20 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.index.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,10 +67,57 @@
       <workItem from="1793183940664" duration="704000" />
       <workItem from="1793186269747" duration="1455000" />
       <workItem from="1793772430009" duration="6000" />
+      <workItem from="1794822338282" duration="13000" />
+      <workItem from="1794822354730" duration="23520000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes for final exam">
+      <option name="closed" value="true" />
+      <created>1794749310562</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1794749310562</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changes for final exam">
+      <option name="closed" value="true" />
+      <created>1794749317332</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1794749317332</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changes for final exam">
+      <option name="closed" value="true" />
+      <created>1794749320868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1794749320868</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changes for final exam">
+      <option name="closed" value="true" />
+      <created>1794749324932</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1794749324932</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changes for final exam">
+      <option name="closed" value="true" />
+      <created>1794749332474</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1794749332474</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes for final exam" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes for final exam" />
   </component>
 </project>

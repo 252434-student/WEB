@@ -5,7 +5,6 @@ body {
     background-color: lightgoldenrodyellow;
 }
 .nav {
-    border : 1px solid black; !important;
     background-color: orange; !important;
     margin: 20px;
     border-radius: 10px;
@@ -41,6 +40,7 @@ body {
     width: 80% !important;
     margin-left: auto;
     margin-right: auto !important;
+    margin-bottom: 100px;
     float: none;
 }
 
@@ -48,14 +48,13 @@ body {
     border-color: darkred !important;
 }
 .accordion-button{
-    background-color: goldenrod !important;
+    background-color: orange !important;
 }
 .accordion-button:active{
     border-color: darkred !important;
-    background-color: darkred !important;
+    background-color: gold !important;
     color: white !important;
 }
-
 .cart{
     position: fixed;
     top: 0;
@@ -70,6 +69,9 @@ body {
 }
 .cart.active{
     right: 0;
+}
+.cart-icon.notify{
+    color: red !important;
 }
 .cart-title{
     text-align: center;
@@ -189,11 +191,32 @@ input[type=reset]:hover {
 .container-inner h4{
     padding: 10px;
 }
+.container-inner hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 .btn-primary{
-    background-color: gold !important;
+    background-color: orange !important;
     border-color: goldenrod !important;
 }
-.btn .btn-primary:hover{
-    background-color: orange !important;
+.btn-primary:active{
+    background-color: gold !important;
+    color: black !important;
+}
+
+.reservation{
+    max-width: 1000px;
+    width: 80%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+#accordionDrinks{
+    display: none;
+}
+#accordionDesserts{
+    display: none;
 }
