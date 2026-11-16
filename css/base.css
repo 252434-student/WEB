@@ -4,6 +4,9 @@
 body {
     background-color: lightgoldenrodyellow;
 }
+hr{
+    border: 2px solid black;
+}
 .nav {
     background-color: orange; !important;
     margin: 20px;
