@@ -6,9 +6,6 @@
       <change beforePath="$PROJECT_DIR$/Meat-Point-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat-Point-home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Meat-Point-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat-Point-menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Meat-Point-reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meat-Point-reservation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/signin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,8 @@
       <workItem from="1793186269747" duration="1455000" />
       <workItem from="1793772430009" duration="6000" />
       <workItem from="1794822338282" duration="13000" />
-      <workItem from="1794822354730" duration="23520000" />
+      <workItem from="1794822354730" duration="23698000" />
+      <workItem from="1794905779744" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="Changes for final exam">
       <option name="closed" value="true" />
@@ -110,7 +108,23 @@
       <option name="project" value="LOCAL" />
       <updated>1794749332474</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changes for final exam">
+      <option name="closed" value="true" />
+      <created>1794852519235</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1794852519235</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changes for final exam">
+      <option name="closed" value="true" />
+      <created>1794852676739</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1794852676739</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

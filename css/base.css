@@ -211,10 +211,11 @@ input[type=reset]:hover {
 .reservation{
     max-width: 1000px;
     width: 80%;
-    top:50%;
+    top:60%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-60%);
     position: absolute;
+    margin-bottom: 100px;
 }
 
 #accordionDrinks{
